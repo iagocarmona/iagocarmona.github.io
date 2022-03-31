@@ -1,5 +1,9 @@
-export const theme {
+const theme 
+    colors{
+
+    }
     onyx: '#383939',
-    
+
 }
 
+export default theme;
