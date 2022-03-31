@@ -1,14 +1,10 @@
 import React from 'react'
 
-// Components
-import Header from './components/Header'
+// Pages
+import LandingPage from './pages/landingPage'
 
 function App() {
-  return (
-    <div>
-      <Header />
-    </div>
-  )
+  return <LandingPage />
 }
 
 export default App
