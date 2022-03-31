@@ -2,10 +2,13 @@
   "name": "landing-page",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://iagocarmona.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "homolog -d build"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -15,6 +18,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
+    "gh-pages": "^3.2.3",
     "vite": "^2.9.0",
     "vite-plugin-react-svg": "^0.2.0"
   }
