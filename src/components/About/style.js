@@ -5,7 +5,7 @@ export const Container = styled.div``
 export const Wrapper = styled.div`
   padding-top: 32px;
   width: 100%;
-  height: 500px;
+  height: 700px;
   display: flex;
   justify-content: center;
   background-image: linear-gradient(
@@ -32,7 +32,7 @@ export const WrapperImage = styled.div`
 `
 
 export const Title = styled.h1`
-  font-size: 5rem;
+  font-size: 6rem;
   color: white;
   margin: 0;
 `

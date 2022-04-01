@@ -3,7 +3,14 @@ import React from 'react'
 import Logo from '../../assets/logo.png'
 
 // Styles
-import { Container, Wrapper, LogoImg, MenuOptions, MenuItem } from './style'
+import {
+  Container,
+  Wrapper,
+  LogoImg,
+  MenuOptions,
+  MenuItem,
+  TeamName,
+} from './style'
 
 const options = [
   {
@@ -22,6 +29,7 @@ const Header = () => {
     <Container>
       <Wrapper>
         <LogoImg src={Logo} />
+        <TeamName>Plus Ultra</TeamName>
         <MenuOptions>
           {options.map((item, index) => (
             <MenuItem key={index}>{item.title}</MenuItem>

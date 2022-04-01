@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 export const LogoImg = styled.img`
   height: 80%;
-  margin-left: 10%;
+  margin-left: 5%;
 `
 
 export const Wrapper = styled.div`
@@ -18,6 +18,13 @@ export const Wrapper = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
+`
+
+export const TeamName = styled.div`
+  font-size: 4rem;
+  margin-left: 24px;
+  font-weight: bold;
+  white-space: nowrap;
 `
 
 export const MenuOptions = styled.div`

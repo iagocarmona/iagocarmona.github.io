@@ -19,7 +19,7 @@ const About = () => {
     <Container>
       <Wrapper>
         <WrapperInfo>
-          <Title color="red">SportsNow!</Title>
+          <Title color="red">Plus Ultra</Title>
           <TitleAbove color="white">Developing for the world!</TitleAbove>
           <Subtitle>
             Nossa equipe é composta por seis membros, nos quais fazem parte da
