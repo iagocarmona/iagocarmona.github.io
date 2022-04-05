@@ -1,11 +1,11 @@
 import React from 'react'
 
-import AvatarDefault from '../../assets/avatar.svg'
-
 import IagoAvatar from '../../assets/users/iago.jpeg'
 import CaioAvatar from '../../assets/users/caio.jpeg'
 import MatheusAvatar from '../../assets/users/matheus.jpeg'
 import GabrielAvatar from '../../assets/users/gabriel.jpeg'
+import ThiagoAvatar from '../../assets/users/thiago.jpeg'
+import MarcosAvatar from '../../assets/users/marcos.jpeg'
 
 import {
   Container,
@@ -37,12 +37,12 @@ const team = [
   {
     name: 'Marcos Quadros',
     function: 'Developer',
-    avatar: AvatarDefault,
+    avatar: MarcosAvatar,
   },
   {
     name: 'Thiago Gariani',
     function: 'Developer',
-    avatar: AvatarDefault,
+    avatar: ThiagoAvatar,
   },
   {
     name: 'Gabriel Vieira',
