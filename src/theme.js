@@ -1,9 +1,11 @@
 const theme = {
   colors: {
     darkBrown: '#383939',
-    darkGreen: '#149c68',
-    green: '#38c958',
+    darkerGreen: '#45702b',
+    darkGreen: '#fde910',
+    green: '#ffbf00',
     lightGreen: '#aee637',
+    lighterGreen: '#9dd47b',
     nude: '#fffedb',
   },
 }

@@ -5,14 +5,16 @@ export const Container = styled.div``
 export const Wrapper = styled.div`
   padding-top: 32px;
   width: 100%;
-  height: 500px;
+  height: 700px;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-image: linear-gradient(
     180deg,
-    ${({ theme }) => theme.colors.green},
-    ${({ theme }) => theme.colors.darkGreen}
+    ${({ theme }) => theme.colors.darkGreen},
+    ${({ theme }) => theme.colors.green}
   );
+  padding-bottom: 120px;
 `
 export const WrapperInfo = styled.div`
   width: 40%;
@@ -24,7 +26,6 @@ export const WrapperInfo = styled.div`
 
 export const WrapperImage = styled.div`
   width: 60%;
-
   svg {
     width: 100%;
     height: 100%;
@@ -32,9 +33,10 @@ export const WrapperImage = styled.div`
 `
 
 export const Title = styled.h1`
-  font-size: 5rem;
-  color: white;
+  font-size: 6rem;
+  color: ${({ theme }) => theme.colors.darkBrown};
   margin: 0;
+  white-space: nowrap;
 `
 
 export const TitleAbove = styled.h2`
