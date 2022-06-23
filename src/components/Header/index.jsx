@@ -12,7 +12,7 @@ import {
   TeamName,
 } from './style'
 
-const Header = ({ aboutRef, ourteamRef, videoRef }) => {
+const Header = ({ aboutRef, ourteamRef, videoRef, artefatoRef }) => {
   const options = [
     {
       title: 'Sobre nós',
@@ -21,6 +21,10 @@ const Header = ({ aboutRef, ourteamRef, videoRef }) => {
     {
       title: 'Vídeo',
       ref: videoRef,
+    },
+    {
+      title: 'Artefatos',
+      ref: artefatoRef,
     },
     {
       title: 'Nossa equipe',
