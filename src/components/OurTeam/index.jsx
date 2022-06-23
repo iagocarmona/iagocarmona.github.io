@@ -1,7 +1,6 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 
 import IagoAvatar from '../../assets/users/iago.jpeg'
-import CaioAvatar from '../../assets/users/caio.jpeg'
 import MatheusAvatar from '../../assets/users/matheus.jpeg'
 import GabrielAvatar from '../../assets/users/gabriel.jpeg'
 import ThiagoAvatar from '../../assets/users/thiago.jpeg'
@@ -21,13 +20,8 @@ import {
 const team = [
   {
     name: 'Iago Carmona',
-    function: 'Developer',
+    function: 'Developer & CEO',
     avatar: IagoAvatar,
-  },
-  {
-    name: 'Caio Barreto',
-    function: 'Developer',
-    avatar: CaioAvatar,
   },
   {
     name: 'Matheus Fernandes',
@@ -51,9 +45,9 @@ const team = [
   },
 ]
 
-const OurTeam = () => {
+const OurTeam = forwardRef((props, ref) => {
   return (
-    <Container>
+    <Container ref={ref}>
       <Title>Our Team</Title>
       <Wrapper>
         {team.map((item, index) => (
@@ -68,6 +62,5 @@ const OurTeam = () => {
       </Wrapper>
     </Container>
   )
-}
-
+})
 export default OurTeam

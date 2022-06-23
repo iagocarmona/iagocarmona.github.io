@@ -6,8 +6,8 @@ export const StyledFooter = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: ${({ theme }) => theme.colors.darkerGreen};
-  color: white;
+  background-color: ${({ theme }) => theme.colors.green};
+  color: ${({ theme }) => theme.colors.darkBrown};
   font-size: 0.9rem;
   font-weight: lighter;
 `

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import Logo from '../../assets/logo.png'
 
@@ -12,27 +12,39 @@ import {
   TeamName,
 } from './style'
 
-const options = [
-  {
-    title: 'Sobre nós',
-  },
-  {
-    title: 'Vídeos',
-  },
-  {
-    title: 'Nossa equipe',
-  },
-]
+const Header = ({ aboutRef, ourteamRef, videoRef }) => {
+  const options = [
+    {
+      title: 'Sobre nós',
+      ref: aboutRef,
+    },
+    {
+      title: 'Vídeo',
+      ref: videoRef,
+    },
+    {
+      title: 'Nossa equipe',
+      ref: ourteamRef,
+    },
+  ]
 
-const Header = () => {
+  const handleScrollToElement = (ref) => {
+    ref.current.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  }
+
   return (
     <Container>
       <Wrapper>
         <LogoImg src={Logo} />
-        <TeamName>Plus Ultra</TeamName>
+        <TeamName>Easy Gym</TeamName>
         <MenuOptions>
           {options.map((item, index) => (
-            <MenuItem key={index}>{item.title}</MenuItem>
+            <MenuItem
+              key={index}
+              onClick={() => handleScrollToElement(item.ref)}
+            >
+              {item.title}
+            </MenuItem>
           ))}
         </MenuOptions>
       </Wrapper>
