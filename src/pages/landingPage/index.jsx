@@ -7,6 +7,7 @@ import OurTeam from '../../components/OurTeam'
 import Footer from '../../components/Footer'
 import VideoSection from '../../components/VideoSection'
 import ArtefatosSection from '../../components/ArtefatosSection'
+import FigmaSection from '../../components/FigmaSection'
 
 // Styles
 import { Wrapper } from './style'
@@ -16,6 +17,7 @@ const LandingPage = () => {
   const ourteamRef = useRef(null)
   const videoRef = useRef(null)
   const artefatoRef = useRef(null)
+  const figmaRef = useRef(null)
 
   return (
     <Wrapper>
@@ -24,11 +26,13 @@ const LandingPage = () => {
         ourteamRef={ourteamRef}
         videoRef={videoRef}
         artefatoRef={artefatoRef}
+        figmaRef={figmaRef}
       />
       <About ref={aboutRef} />
       <VideoSection ref={videoRef} />
-      <OurTeam ref={ourteamRef} />
+      <FigmaSection ref={figmaRef} />
       <ArtefatosSection ref={artefatoRef} />
+      <OurTeam ref={ourteamRef} />
       <Footer />
     </Wrapper>
   )
