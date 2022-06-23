@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 
 import Logo from '../../assets/logo.png'
 
@@ -12,7 +12,7 @@ import {
   TeamName,
 } from './style'
 
-const Header = ({ aboutRef, ourteamRef, videoRef }) => {
+const Header = ({ aboutRef, ourteamRef, videoRef, artefatoRef, figmaRef }) => {
   const options = [
     {
       title: 'Sobre nós',
@@ -21,6 +21,14 @@ const Header = ({ aboutRef, ourteamRef, videoRef }) => {
     {
       title: 'Vídeo',
       ref: videoRef,
+    },
+    {
+      title: 'Figma',
+      ref: figmaRef,
+    },
+    {
+      title: 'Artefatos',
+      ref: artefatoRef,
     },
     {
       title: 'Nossa equipe',
