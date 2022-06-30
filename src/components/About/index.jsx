@@ -18,7 +18,7 @@ const About = forwardRef((props, ref) => {
     <Wrapper ref={ref}>
       <WrapperInfo>
         <Title color="red">Easy Gym</Title>
-        <TitleAbove color="white">Developing for the world!</TitleAbove>
+        <TitleAbove color="white">Developing for the world!!</TitleAbove>
         <Subtitle>
           Nossa equipe é composta por seis membros, nos quais fazem parte da
           turma de Ciência da Computação na disciplina de Interação Homem
