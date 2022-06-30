@@ -142,7 +142,7 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
     background-color: ${({theme:e})=>e.colors.nude};
     color: ${({theme:e})=>e.colors.darkBrown};
   }
-`,A1=g.exports.forwardRef((e,t)=>De(C1,{ref:t,children:[De(_1,{children:[D(T1,{color:"red",children:"Easy Gym"}),D(M1,{color:"white",children:"Developing for the world!"}),De(N1,{children:["Nossa equipe \xE9 composta por seis membros, nos quais fazem parte da turma de Ci\xEAncia da Computa\xE7\xE3o na disciplina de Intera\xE7\xE3o Homem Computador, com o intu\xEDto de desenvolver uma aplica\xE7\xE3o mobile utilizando os m\xE9todos do ",D("b",{children:"Google Design Sprint."})]}),D(O1,{children:"Saber mais"})]}),D(P1,{children:D(k1,{})})]}));var R1="/assets/iago.e875cbb0.jpeg",L1="/assets/matheus.9fc91b31.jpeg",$1="/assets/gabriel.876083c2.jpeg",z1="/assets/thiago.bab4338b.jpeg",I1="/assets/marcos.adbc587b.jpeg";const j1=B.div`
+`,A1=g.exports.forwardRef((e,t)=>De(C1,{ref:t,children:[De(_1,{children:[D(T1,{color:"red",children:"Easy Gym"}),D(M1,{color:"white",children:"Developing for the world!!"}),De(N1,{children:["Nossa equipe \xE9 composta por seis membros, nos quais fazem parte da turma de Ci\xEAncia da Computa\xE7\xE3o na disciplina de Intera\xE7\xE3o Homem Computador, com o intu\xEDto de desenvolver uma aplica\xE7\xE3o mobile utilizando os m\xE9todos do ",D("b",{children:"Google Design Sprint."})]}),D(O1,{children:"Saber mais"})]}),D(P1,{children:D(k1,{})})]}));var R1="/assets/iago.e875cbb0.jpeg",L1="/assets/matheus.9fc91b31.jpeg",$1="/assets/gabriel.876083c2.jpeg",z1="/assets/thiago.bab4338b.jpeg",I1="/assets/marcos.adbc587b.jpeg";const j1=B.div`
   width: 100%;
   min-height: 700px;
   height: fit-content;
