@@ -2,11 +2,13 @@ import React, { forwardRef } from 'react'
 
 import { Container } from './style'
 
+import video from '../../assets/IHC.mp4'
+
 const VideoSection = forwardRef((props, ref) => {
   return (
     <Container ref={ref}>
       <video controls>
-        <source src="movie.mp4" type="video/mp4" />
+        <source src={video} type="video/mp4" />
       </video>
     </Container>
   )
