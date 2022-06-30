@@ -21,6 +21,8 @@ const ArtefatosSection = forwardRef((props, ref) => {
           <ButtonContent
             href="https://download1327.mediafire.com/bjonwdvvdzdg/o3d9cd7344dyqr0/Artefatos.zip"
             dowmload="artefatos.zip"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             Baixar Artefatos
             <DownloadIcon />
